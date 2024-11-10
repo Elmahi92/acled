@@ -1,0 +1,7 @@
+[API]
+base_url = https://api.acleddata.com/read
+country = Sudan
+email = mohamed.omer@undp.org
+api_key = eU*u2SEKePnQiv9d!qXI
+start_date = 2023-04-01
+
