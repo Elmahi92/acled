@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import date
 import time
-from ACLED.elements.utils import fetch_acled_data
+from utils import fetch_acled_data
 from streamlit.components.v1 import annotated_text
 import pandas as pd
 import plotly.graph_objects as go
