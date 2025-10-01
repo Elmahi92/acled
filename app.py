@@ -75,8 +75,8 @@ days_difference = (current_date - start_date).days
 hours_difference = (current_date - start_date).total_seconds() / 3600
 
 # Streamlit App Layout
-st.title("🌍 ACLED Data Dashboard")
-st.markdown("### Armed Conflict Location & Event Data Analysis")
+st.title(" 〰️ SUDAN ACLED Data Dashboard 〰️")
+st.markdown("### Armed Conflict Location & Event Data Analysis Based on acled data")
 
 # Sidebar for filters
 # st.sidebar.header("Filters")
@@ -157,7 +157,7 @@ with event_grid.container():
     st.metric("Violence Against Civilians", f"{total_Violence_against_civilians:,}")
 
 # Charts Section
-st.markdown("### 📈 Data Visualizations")
+st.markdown("### 📈 Trends")
 
 # Create two columns for charts
 col1, col2 = st.columns(2)
