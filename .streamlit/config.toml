@@ -2,3 +2,11 @@
 base="dark"
 backgroundColor="#1e1e1e"
 secondaryBackgroundColor="#252526"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
