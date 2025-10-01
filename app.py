@@ -227,3 +227,12 @@ def dashboard():
 
 # Run the Dashboard
 dashboard()
+# Add this at the end of your app.py file
+if __name__ == "__main__":
+    import os
+    # Get port from environment variable (Cloud Run sets this)
+    port = int(os.environ.get("PORT", 8080))
+    
+    # This is for local development - remove or comment out for Cloud Run
+    # st.run()
+
