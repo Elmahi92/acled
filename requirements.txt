@@ -14,7 +14,7 @@ streamlit-elements
 streamlit-pandas-profiling
 streamlit-player
 streamlit-quill
-
+streamlit-extras
 # Dependencies
 pandas-profiling
 requests
